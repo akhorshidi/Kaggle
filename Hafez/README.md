@@ -15,5 +15,9 @@ After that, run the script hafez.sh and see the results:
 ```
 Lastly, it runs "gnuplot plot.in" to plots some of the outputs.
 
+This project takes its inspiration and data from the book **Practical Data Science** [2].
+
 ---
 [1] https://github.com/behdad/bicon
+
+[2] https://github.com/akhorshidi/Bash4DSBook

@@ -17,14 +17,6 @@ unset border
 set xtics nomirror rotate by -45
 plot "./D1/top20.out" u 1:xtic(2) w boxes lt rgb "#00ced1"
 pause -1 "Hit any key to continue..."
-#set title "The Most Frequent Words in Divan-e Hafez"
-#set xlabel "Words"
-#set ylabel "Frequency"
-#set style data histograms
-#set boxwidth 1
-#set terminal qt 9999
-#plot "./D1/top20.out" u 1:xtic(2) w histograms lt rgb "#406090"
-#pause -1 "Hit any key to continue..."
 set title "...ده واژه پر تکرار در غزل می خواه و گل افشان کن"
 set xlabel "واژگان"
 set ylabel "فراوانی"
@@ -39,12 +31,3 @@ set xtics nomirror rotate by -45
 set terminal qt 10000
 plot "./D1/top10.out" u 1:xtic(2) w boxes lt rgb "#32cd32"
 pause -1 "Hit any key to continue..."
-#set title "The Most Frequent Words in Qazal #495"
-#set xlabel "Words"
-#set ylabel "Frequency"
-#set style data histograms
-#set boxwidth 1
-#set terminal qt 10001
-#plot "./D1/top10.out" u 1:xtic(2) w histograms lt rgb "#ffa500"
-#pause -1 "Hit any key to continue..."
-

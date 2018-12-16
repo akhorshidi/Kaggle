@@ -15,7 +15,7 @@ After that, run the script hafez.sh and see the results:
 ```
 Lastly, it runs "gnuplot plot.in" to plots some of the outputs.
 
-This project takes its inspiration from the book **Practical Data Science** [2]. The dataset for this project was dervived from Narges Sharif-Razavian's homepage [3]. The project also hosted on Kaggle [4].
+This project takes its inspiration from the book **Practical Data Science** [2]. The dataset used for the project was derived from Narges Sharif-Razavian's homepage [3]. The project also hosted on Kaggle [4].
 
 ---
 [1] https://github.com/behdad/bicon

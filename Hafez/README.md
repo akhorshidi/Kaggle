@@ -1,6 +1,6 @@
 
 
-# حافظ‌‌ پژوهی رایانه‌ای
+# حافظ‌‌پژوهی رایانه‌ای
 ## Mining The Poetry of Hafiz
 
 The aim of this project is to provide a CLI-based text mining tool-chain (Bash, Bicon, GNUPlot, AWK, SED, and UNIX Filters) to study and analysis Huge Persian text files.
@@ -15,9 +15,13 @@ After that, run the script hafez.sh and see the results:
 ```
 Lastly, it runs "gnuplot plot.in" to plots some of the outputs.
 
-This project takes its inspiration and data from the book **Practical Data Science** [2].
+This project takes its inspiration from the book **Practical Data Science** [2]. The dataset for this project was dervived from Narges Sharif-Razavian's homepage [3]. The project also hosted on Kaggle [4].
 
 ---
 [1] https://github.com/behdad/bicon
 
 [2] https://github.com/akhorshidi/Bash4DSBook
+
+[3] http://www.cs.cmu.edu/~nsharifr/hafez.txt
+
+[4] https://www.kaggle.com/akhorshidi/hafez

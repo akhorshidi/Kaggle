@@ -17,10 +17,6 @@ cat ./Divan/hafez.txt | grep -E '[۰-۹]{1,3}$' | wc -l
 # Count the number of Ghazals using awk
 cat ./Divan/hafez.txt | awk 'BEGIN {FS="\n"} /[۰-۹]+$/ {print $1}' | awk 'END {print NR}'
 # List the Top 20 words used in Divan-e-Hafez using sed and other text filters
-#sed 's/\s/\n/g' splits all spaces into newlines
-#sed '/^$/d' deletes all blank lines
-#sed 's///g' strips multiple sapces to one
-#sed '/[0-9]$/d' deletes lines end with digits
 sed -e '/[۰-۹]\+$/d' -e 's/ \+/ /g' -e '/^$/d' -e 's/ /\'$'\n/g' < ./Divan/hafez.txt | sort | uniq -c | sort -nr > ./Divan/words.out
 cat ./Divan/words.out | head -20
 cat ./Divan/words.out | head -20 > ./Divan/top20.out

@@ -1,6 +1,6 @@
 
 
-# حافظ‌‌پژوهی رایانه‌ای
+# حافظ‌‌ پژوهی رایانه‌ای
 ## Mining The Poetry of Hafiz
 
 The aim of this project is to provide a CLI-based text mining tool-chain (Bash, Bicon, GNUPlot, AWK, SED, and UNIX Filters) to study and analysis Huge Persian text files.

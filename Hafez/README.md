@@ -15,6 +15,10 @@ After that, run the script hafez.sh and see the results:
 ```
 Lastly, it runs "gnuplot plot.in" to plots some of the outputs.
 
+![Top 20 words](https://raw.githubusercontent.com/akhorshidi/Kaggle/master/Hafez/Hafez_TOP20.png)
+![Top 10 words](https://raw.githubusercontent.com/akhorshidi/Kaggle/master/Hafez/Ghazal_TOP10.png)
+
+
 This project takes its inspiration from the book **Practical Data Science** [2]. The dataset used for the project was derived from Narges Sharif-Razavian's homepage [3]. The project also hosted on Kaggle [4].
 
 ---
